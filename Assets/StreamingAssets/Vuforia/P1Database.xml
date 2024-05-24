@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="kambertheplunderer" size="5.000000 6.964091"/>
+        <ImageTarget name="laurine" size="5.000000 6.973684"/>
+        <ImageTarget name="Sol-ring" size="5.000000 6.964286"/>
+        <ImageTarget name="Topoterreno5" size="6.000000 7.602564"/>
+        <ImageTarget name="Caratula" size="5.000000 7.050000"/>
+        <ImageTarget name="gato2" size="500.000000 333.333344"/>
+        <ImageTarget name="gato" size="500.000000 333.333344"/>
+        <ImageTarget name="madera" size="1.000000 0.666667"/>
+        <ImageTarget name="catarulas-aciii-wii-u-1" size="800.000000 1128.000000"/>
+        <ImageTarget name="DadoV1.Front" size="2.000000 2.000000"/>
+        <ImageTarget name="DadoV1.Back" size="2.000000 2.000000"/>
+        <ImageTarget name="DadoV1.Left" size="2.000000 2.000000"/>
+        <ImageTarget name="DadoV1.Top" size="2.000000 2.000000"/>
+        <ImageTarget name="DadoV1.Right" size="2.000000 2.000000"/>
+        <ImageTarget name="DadoV1.Bottom" size="2.000000 2.000000"/>
+        <MultiTarget name="DadoV1">
+            <Part name="DadoV1.Left" translation="-1.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="DadoV1.Right" translation="1.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="DadoV1.Front" translation="0 0 1.0" rotation="AD: 1 0 0 0"/>
+            <Part name="DadoV1.Back" translation="0 0 -1.0" rotation="AD: 0 1 0 180"/>
+            <Part name="DadoV1.Top" translation="0 1.0 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="DadoV1.Bottom" translation="0 -1.0 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
